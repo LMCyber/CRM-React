@@ -27,7 +27,7 @@ export const Formulario = ({ cliente, cargando }) => {
     try {
       if (cliente.id) {
         // Editar registro
-        const url = `http://localhost:4000/clientes/${cliente.id}`
+        const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
 
         await window.fetch(url, {
           method: 'PUT',
@@ -37,7 +37,7 @@ export const Formulario = ({ cliente, cargando }) => {
           }
         })
       } else {
-        const url = 'http://localhost:4000/clientes'
+        const url = import.meta.env.VITE_API_URL
 
         await window.fetch(url, {
           method: 'POST',
