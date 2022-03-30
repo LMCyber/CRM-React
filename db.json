@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Manuel",
+      "empresa": "Otra de mis empresas",
+      "email": "mail@mail.com",
+      "telefono": "99999999999",
+      "notas": "Texto de prueba",
+      "id": 3
+    },
+    {
+      "nombre": "Graciela",
+      "empresa": "Bamboo",
+      "email": "mail@mail.com",
+      "telefono": "999999999",
+      "notas": "Texto de prueba",
+      "id": 4
+    },
+    {
+      "nombre": "Rominna",
+      "empresa": "Riminitas",
+      "email": "mail@mail.com",
+      "telefono": "888888888",
+      "notas": "Texto de prueba",
+      "id": 5
+    }
+  ]
+}
